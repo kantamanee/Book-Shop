@@ -14,10 +14,10 @@ public class MyAlert {
                          String strMessage) {
         AlertDialog.Builder builder = new AlertDialog.Builder(context);
         builder.setCancelable(false);
-        builder.setIcon(R.drawable.nobita48);
+        builder.setIcon(R.drawable.mm11);
         builder.setTitle(strTitle);
         builder.setMessage(strMessage);
-        builder.setPositiveButton("ก้อได้", new DialogInterface.OnClickListener() {
+        builder.setPositiveButton("เด่วจั่งเฮ็ดคั่น", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
                 dialogInterface.dismiss();
